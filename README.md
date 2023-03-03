@@ -84,6 +84,6 @@ li.section__card>(.section__text>p.section__subtitle+h2.section__title+p.section
 
 ### Секция "Ready to get started"
 
-section.section__download>.download__grid>h2.section__title+a.download__btn--pink+a.download__btn--transparent
+section.section__download>.download__grid>h2.section__title+a.download--btn_pink+a.download--btn_transparent
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/ready-to-get-started.jpg?raw=true)
