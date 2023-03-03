@@ -66,7 +66,7 @@
 
 ### Header
 
-header.header>(.header__top>a+nav.header__nav>ul.nav__list>li.nav__item_6)+(.header__inner>h1.header__title+h2.header__text+a.header__registrate)+(img.header__img)+a.header__btn>img
+header.header>(.header__top>a.header__logo+nav.header__nav>ul.nav__list>(li.nav__item*5>a.item__link)+li.nav__item>a.btn)+(.header__inner>h1.header__title+h2.header__text+a.btn.btn--modal)+(img.header__img)+a.header__btn>img.btn--arrow
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/header.jpg?raw=true)
 
@@ -78,12 +78,12 @@ form.footer__form>label+input.form__input+button.form__submit
 
 ### Карточка
 
-li.section__card>(.section__text>p.section__subtitle+h2.section__title+p.section__paragraph)+img
+li.section__card.card>(.text>p.subtitle+h2.title+p.paragraph)+img.card__img
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/card.jpg?raw=true)
 
 ### Секция "Ready to get started"
 
-section.section__download>.download__grid>h2.section__title+a.download--btn_pink+a.download--btn_transparent
+section.section__download.download>.download__grid>h2.title+a.btn btn--p_large+a.download__btn--transparent
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/ready-to-get-started.jpg?raw=true)
