@@ -78,12 +78,12 @@ form.footer__form>label+input.form__input+button.form__submit
 
 ### Карточка
 
-li.section__card.card>(.text>p.subtitle+h2.title+p.paragraph)+img.card__img
+li.section__card.card>(.card__text.text>p.card__subtitle.subtitle+h2.card__title.title+p.card__paragraph.paragraph)+img.card__img
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/card.jpg?raw=true)
 
 ### Секция "Ready to get started"
 
-section.section__download.download>.download__grid>h2.title+a.btn btn--p_large+a.btn btn--transparent
+section.section__download.download>.download__grid>h2.download__title.title+a.btn.btn--p_large+a.btn.btn--transparent
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/ready-to-get-started.jpg?raw=true)
