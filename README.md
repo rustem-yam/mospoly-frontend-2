@@ -2,6 +2,10 @@
 
 ## Тело человека
 
+тело\_\_голова.голова
+тело\_\_рука.рука
+тело\_\_торс.торс
+
 ### голова
 
 #### голова\_\_уши
@@ -66,7 +70,7 @@
 
 ### Header
 
-header.header>(.header__top>a.header__logo+nav.header__nav>ul.nav__list>(li.nav__item*5>a.item__link)+li.nav__item>a.btn)+(.header__inner>h1.header__title+h2.header__text+a.btn.btn--modal)+(img.header__img)+a.header__btn>img.btn--arrow
+(header.header>(a.header__logo.header+nav.header__nav>ul.nav__list>(li.nav__item*5>a.item__link)+li.nav__item>a.btn))+(section.hero>h1.hero__title+h2.hero__text+a.btn.btn--modal+img.hero__img+a.hero__btn>img.btn--arrow)
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/header.jpg?raw=true)
 
@@ -78,12 +82,12 @@ form.footer__form>label+input.form__input+button.form__submit
 
 ### Карточка
 
-li.section__card.card>(.card__text.text>p.card__subtitle.subtitle+h2.card__title.title+p.card__paragraph.paragraph)+img.card__img
+li.card>(.card__text>p.card__subtitle+h2.card__title+p.card__paragraph)+img.card__img
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/card.jpg?raw=true)
 
 ### Секция "Ready to get started"
 
-section.section__download.download>.download__grid>h2.download__title.title+a.btn.btn--p_large+a.btn.btn--transparent
+section.download>.download__grid>h2.download__title.title+a.btn.btn--p_large+a.btn.btn--transparent
 
 ![alt text](https://github.com/rustem-yam/mospoly-frontend-2/blob/emmet/ready-to-get-started.jpg?raw=true)
